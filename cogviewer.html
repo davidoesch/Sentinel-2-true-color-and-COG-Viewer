@@ -93,7 +93,7 @@ function toggleLayer() {
 			// based on https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/l2a_optimized/ 	
 		
         // Execute code for ch.swisstopo.swisseo_vhi
-        // For example:https://cms.geo.admin.ch/test/topo/umweltbeobachtung/testcog/ch.swisstopo.swisseo_vhi_v100_mosaic_2023-10-16T235959_bands-10m.tif
+        // For example:https://data.geo.admin.ch/ch.swisstopo.rapidmapping/data/2024-002-MISOX/2024_RM_Flood_Misox_GR_Quickmosaic_20240622_RGB8BIT_LV95.tif
         // yourVHICodeHere();
 		// Define color map
     // Define the function to map pixel values to colors
@@ -241,7 +241,7 @@ function toggleLayer() {
 	
     // Prompt user for GeoTIFF URL if none is provided
     if (!url_to_geotiff_file) {
-        const defaultGeoTIFFURL = "https://data.geo.admin.ch/ch.swisstopo.swisseo_s2-sr_v100/2024-02-23t103031/ch.swisstopo.swisseo_s2-sr_v100_mosaic_2024-02-23t103031_bands-10m.tif";
+        const defaultGeoTIFFURL = "https://data.geo.admin.ch/ch.swisstopo.rapidmapping/data/2024-002-MISOX/2024_RM_Flood_Misox_GR_Quickmosaic_20240622_RGB8BIT_LV95.tif";
         const userGeoTIFFURL = prompt("Please enter the URL for the RGB GeoTIFF file (EPSG:2056):", defaultGeoTIFFURL);
         if (userGeoTIFFURL) {
             const parser = new URL(window.location);
