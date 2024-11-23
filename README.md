@@ -6,7 +6,7 @@ This repository provides tools for creating and visualizing enhanced true color 
 
 - **True Color Enhancement**: Contrast, gamma, and saturation adjustments based on the L2A optimized script for visual clarity.
 - **Python COG Generation**: Efficient tile-based processing using `rasterio` to output COGs with BigTIFF and JPEG compression for scalable use.
-- **Interactive Web Viewer**: A Leaflet-based viewer that supports visualization of COGs with custom CRS (EPSG:2056) and toggling base layers.
+- **Interactive Web Viewer**: [DEMO](https://davidoesch.github.io/Sentinel-2-true-color-and-COG-Viewer/cogviewer.html)  A Leaflet-based viewer that supports visualization of COGs with custom CRS (EPSG:2056) and toggling base layers.
 
 ## Getting Started
 
